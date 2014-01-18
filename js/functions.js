@@ -13,10 +13,6 @@ $(window).load(function() {
       //console.log("cancel : ", this);
     },
     draw : function () {
-      if(this.unit != undefined)
-      {
-        this.i.val(parseFloat(this.i.val())+this.unit);                 
-      }
       // "tron" case
       if(this.$.data('skin') == 'tron') {
 
